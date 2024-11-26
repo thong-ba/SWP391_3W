@@ -1,0 +1,15 @@
+.register-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+}
+.register-container input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+}
+.register-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
