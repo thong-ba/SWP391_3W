@@ -84,7 +84,6 @@ const Header = () => {
                                 <a href="/service2">Dịch vụ 2</a>
                             </div>
                         </li>
-                        <li><a href="/theo-doi-don">Theo dõi đơn</a></li>
                         <li><a href="/chinh-sach">Chính sách</a></li>
                         <li><a href="/ho-tro">Hỗ trợ</a></li>
                     </ul>
