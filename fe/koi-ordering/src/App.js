@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './components/Header';  // Đảm bảo bạn chỉ import Header một lần
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LayoutUtils from './utils/LayoutUtils';
 import Login from './assets/user/login/Login';

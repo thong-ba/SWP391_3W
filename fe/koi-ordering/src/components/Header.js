@@ -91,7 +91,16 @@ const Header = () => {
                 </nav>
 
                 <div className="header-tools">
-                    <input type="text" className="search-box" placeholder="Tìm kiếm..." />
+                    <div className="search-container">
+                        <input
+                            type="text"
+                            className="search-box"
+                            placeholder="Tìm kiếm..."
+                        />
+                        {/* Thêm icon tìm kiếm bên cạnh ô tìm kiếm */}
+                        <i className="fas fa-search search-icon"></i>
+                    </div>
+
                     <select value={language} onChange={handleLanguageChange} className="language-selector">
                         <option value="vi">Tiếng Việt</option>
                         <option value="en">English</option>
