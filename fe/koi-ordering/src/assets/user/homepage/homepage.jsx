@@ -14,6 +14,7 @@ export default function Homepage() {
   const imageList = [
     "/koi-login.png",
     "/koi-login.png",
+    "/koi-login.png",
     "/koi-login.png"
   ];
 
