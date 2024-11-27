@@ -84,28 +84,12 @@ const Header = () => {
                                 <a href="/service2">Dịch vụ 2</a>
                             </div>
                         </li>
-                        <li><a href="/theo-doi-don">Theo dõi đơn</a></li>
                         <li><a href="/chinh-sach">Chính sách</a></li>
                         <li><a href="/ho-tro">Hỗ trợ</a></li>
+                        <li><a href="/login">Đăng nhập</a></li>
+                        <li><a href="/register">Đăng ký</a></li>
                     </ul>
                 </nav>
-
-                <div className="header-tools">
-                    <div className="search-container">
-                        <input
-                            type="text"
-                            className="search-box"
-                            placeholder="Tìm kiếm..."
-                        />
-                        {/* Thêm icon tìm kiếm bên cạnh ô tìm kiếm */}
-                        <i className="fas fa-search search-icon"></i>
-                    </div>
-
-                    <select value={language} onChange={handleLanguageChange} className="language-selector">
-                        <option value="vi">Tiếng Việt</option>
-                        <option value="en">English</option>
-                    </select>
-                </div>
             </div>
         </header>
     );

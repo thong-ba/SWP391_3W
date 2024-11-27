@@ -1,22 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';  // Đảm bảo bạn chỉ import Header một lần
+
 import LayoutUtils from './utils/LayoutUtils';
-import Login from './assets/user/login/Login';
-import Register from './assets/user/register/Register';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes';
 
 function App() {
-  return (
-    <Router>
-      {/* Header chỉ cần render một lần ở đây */}
-      <LayoutUtils>
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
-      </LayoutUtils>
-    </Router>
-  );
+  return <RouterProvider router={router} />;
 }
+
 
 export default App;
