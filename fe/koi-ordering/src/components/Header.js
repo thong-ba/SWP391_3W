@@ -86,16 +86,10 @@ const Header = () => {
                         </li>
                         <li><a href="/chinh-sach">Chính sách</a></li>
                         <li><a href="/ho-tro">Hỗ trợ</a></li>
+                        <li><a href="/login">Đăng nhập</a></li>
+                        <li><a href="/register">Đăng ký</a></li>
                     </ul>
                 </nav>
-
-                <div className="header-tools">
-                    <input type="text" className="search-box" placeholder="Tìm kiếm..." />
-                    <select value={language} onChange={handleLanguageChange} className="language-selector">
-                        <option value="vi">Tiếng Việt</option>
-                        <option value="en">English</option>
-                    </select>
-                </div>
             </div>
         </header>
     );

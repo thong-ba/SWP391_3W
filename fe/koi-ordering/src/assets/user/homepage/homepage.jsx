@@ -12,18 +12,11 @@ export default function Homepage() {
 
   const rowsRef = useRef([]);
   const imageList = [
-    "src/images/homepage1.png",
-    "src/images/homepage2.png",
-    "src/images/header.png"
+    "/koi-login.png",
+    "/koi-login.png",
+    "/koi-login.png"
   ];
-  const fishImageList = [
-    "src/images/fish1.png",
-    "src/images/fish2.png",
-    "src/images/fish3.png",
-    "src/images/fish4.png",
-    "src/images/fish5.png",
-    "src/images/fish6.png",
-  ];
+
 
 
   useEffect(() => {
@@ -150,8 +143,8 @@ export default function Homepage() {
             <div className="item item6"><img src={fishImageList[5]}></img></div>
             <div className="item item7"><img src={fishImageList[0]}></img></div>
             <div className="item item8"><img src={fishImageList[1]}></img></div>
-          </div> */}
-          <div className="divider" />
+          </div>
+          <div className="divider" /> */}
 
         </section>
       </div>
