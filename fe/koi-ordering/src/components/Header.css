@@ -23,11 +23,15 @@
 }
 
 .logo {
-    width: 100px;  /* Kích thước logo, có thể thay đổi tùy ý */
-    height: 100px; /* Chiều cao logo */
-    border-radius: 50%;  /* Bo tròn logo */
-    object-fit: cover;  /* Đảm bảo hình ảnh không bị biến dạng */
-  }
+    width: 100px;
+    /* Kích thước logo, có thể thay đổi tùy ý */
+    height: 100px;
+    /* Chiều cao logo */
+    border-radius: 50%;
+    /* Bo tròn logo */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị biến dạng */
+}
 
 .header-content {
     display: flex;
@@ -90,21 +94,35 @@
 .header-tools {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .search-box {
     padding: 8px;
-    margin-right: 15px;
-    border: 1px solid #ccc;
+    width: 200px;
     border-radius: 4px;
-    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
 }
 
 .language-selector {
+    margin-left: 20px;
     padding: 8px;
-    border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1rem;
+    border: 1px solid #ccc;
 }
 
 /* Responsive Design */
