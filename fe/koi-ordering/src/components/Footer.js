@@ -33,13 +33,13 @@ const Footer = () => {
           <h3>Mạng xã hội</h3>
           <div className="social-media">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="facebook-icon.png" alt="Facebook" />
+              <img src="facebook.png" alt="Facebook" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="twitter-icon.png" alt="Twitter" />
+              <img src="twitter.png" alt="Twitter" />
             </a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="instagram-icon.png" alt="Instagram" />
+              <img src="instagram.png" alt="Instagram" />
             </a>
           </div>
         </div>
